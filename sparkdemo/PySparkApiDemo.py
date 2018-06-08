@@ -3,8 +3,7 @@ from pyspark.sql import *
 from pyspark.sql.types import *
 
 # get spark_context
-spar
-# k_context = SparkSession.builder.appName("apiTest").getOrCreate()
+spark_context = SparkSession.builder.appName("apiTest").getOrCreate()
 
 # create DataFrame
 # test1:
